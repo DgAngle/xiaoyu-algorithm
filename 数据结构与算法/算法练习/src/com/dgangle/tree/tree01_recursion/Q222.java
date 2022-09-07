@@ -4,6 +4,7 @@ import com.dgangle.tree.TreeNode;
 
 /**
  * 222. 完全二叉树的节点个数
+ * AC（此处使用暴力递归, 优化方案见题解）
  *
  * @author gqshuang
  * @version 1.0

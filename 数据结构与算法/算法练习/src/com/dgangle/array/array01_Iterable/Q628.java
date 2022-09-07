@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 /**
  * 628. 三个数的最大乘积
+ * AC
  *
  * @author gqshuang
  * @version 1.0

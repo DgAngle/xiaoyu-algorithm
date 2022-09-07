@@ -2,7 +2,7 @@ package com.dgangle.array.array01_Iterable;
 
 /**
  * 485. 最大连续 1 的个数
- * https://leetcode.cn/problems/max-consecutive-ones
+ * AC
  *
  * @author gqshuang
  * @version 1.0
@@ -51,5 +51,6 @@ public class Q485 {
     nums[i] 不是 0 就是 1.
 
     来源：力扣（LeetCode）
+    https://leetcode.cn/problems/max-consecutive-ones
     */
 }

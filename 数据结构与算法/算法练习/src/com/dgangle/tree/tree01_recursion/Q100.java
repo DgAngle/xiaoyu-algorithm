@@ -4,7 +4,7 @@ import com.dgangle.tree.TreeNode;
 
 /**
  * 100. 相同的树
- *
+ * AC
  * @author gqshuang
  * @version 1.0
  * @date 2022/8/25 16:25

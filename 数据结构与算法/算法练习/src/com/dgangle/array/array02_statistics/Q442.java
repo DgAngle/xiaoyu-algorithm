@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * 442. 数组中重复的数据
+ * AC
  *
  * @author gqshuang
  * @version 1.0

@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * 697. 数组的度
+ * AC
  *
  * @author gqshuang
  * @version 1.0

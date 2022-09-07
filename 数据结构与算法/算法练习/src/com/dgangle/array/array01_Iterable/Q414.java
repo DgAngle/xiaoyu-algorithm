@@ -2,6 +2,7 @@ package com.dgangle.array.array01_Iterable;
 
 /**
  * 414. 第三大的数
+ * AC
  *
  * @author gqshuang
  * @version 1.0
