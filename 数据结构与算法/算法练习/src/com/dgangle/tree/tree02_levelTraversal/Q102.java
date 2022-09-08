@@ -37,12 +37,21 @@ public class Q102 {
     public static List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();
         if (root == null) return list;
-
-        List<Integer> integerList = new ArrayList<>();
-        addList(list, root.left, root.right);
-        // list.add(integerList);
+        addVal(list, root, 0);
         return list;
     }
+
+    public static boolean addVal(List<List<Integer>> list, TreeNode node, int level) {
+        if (node == null) return false;
+        // 初始化父list
+        while (list.size() <= level) list.add(new ArrayList<>());
+        // 拿到当前层的子list
+        List<Integer> nodeList = list.get(level);
+        nodeList.add(node.val);
+        level++;
+        return addVal(list, node.left, level) || addVal(list, node.right, level);
+    }
+
 
     public static List<List<Integer>> addList(List<List<Integer>> list, TreeNode l, TreeNode r) {
         if (l != null && r != null) return list;
@@ -59,7 +68,7 @@ public class Q102 {
         return list;
     }
 
-    public static void initList(List<Integer> list){
+    public static void initList(List<Integer> list) {
         list.add(1);
         list.add(2);
         list.add(3);
